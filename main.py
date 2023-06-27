@@ -113,9 +113,6 @@ result = search_for_artist(token, "BEYONCE")
 artist_id = result["id"]
 songs = get_songs_by_artist(token, artist_id)
 
-# for idx, song in enumerate(songs):
-    # print(f"{idx + 1}. {song['name']}")
-
 for idx, song in enumerate(songs):
     print(f"{idx + 1}. {song['name']}")
     print("Album:", song['album']['name'])
