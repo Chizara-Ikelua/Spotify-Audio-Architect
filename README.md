@@ -46,7 +46,7 @@
         def get_auth_header(token):
             return  {"Authorization": "Bearer " + token}
 
-    5. The 'search_for_artist(token, artist)' function will search for an artist using the spotify API. The artist name will be passed as a query parameter, and the function returns the first matching artist from the search result.
+    5. The 'search_for_artist(token, artist)' function will search for  an artist using the spotify API. The artist name will be passed as a query parameter, and the function returns the first matching artist from the search result.
 
         def search_for_artist(token, artist_name):
             url = "https://api.spotify.com/v1/search"
@@ -134,4 +134,10 @@
             except mysql.connector.Error as error:
                 print("Failed to connect to MySQL database:", error)
             return None
+
+### Limitations and Future Enhancements
+    This code currently inserts our data in the MySQL database but it can also be modified to work with other databases by changing the connection and insertion mode. 
+    
+    
+
 
