@@ -136,7 +136,7 @@
             return None
 
 ### Limitations and Future Enhancements
-    This code currently inserts our data in the MySQL database but it can also be modified to work with other databases by changing the connection and insertion mode. 
+This code currently inserts our data in the MySQL database but it can also be modified to work with other databases by changing the connection and insertion mode. 
     
     
 
