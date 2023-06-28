@@ -1,15 +1,15 @@
 # Spotify API Data Retrieval and MySQL Database Insertion 
 
-    This python script will demonstrate how to  use the Spotify API to search for an artist, retrieve their top tracks amd insert the following track data into MySQL database: album, duration_ms, explicit, track_number, popularity, name, artists, liveness, loudness, tempo, time_signature, energy, danceability, song_id. 
+This python script will demonstrate how to  use the Spotify API to search for an artist, retrieve their top tracks amd insert the following track data into MySQL database: album, duration_ms, explicit, track_number, popularity, name, artists, liveness, loudness, tempo, time_signature, energy, danceability, song_id. 
 
-    The script uses 'dotenv' library to load the environment variables from a '.env' file, which will contain your Spotify API client ID and client secret. This can be attained from 'spotify for developers account.' 
+The script uses 'dotenv' library to load the environment variables from a '.env' file, which will contain your Spotify API client ID and client secret. This can be attained from 'spotify for developers account.' 
 
 ## Prerequisites
-    Before installing the script, make sure you have the followinng:
-        - Python 3 installed on your machine 
-        - MySQL server installed and running 
-        - Spotify API credentials (client ID and client secret). This can be obtained by creatinng a spotify Developer account and creating a application. 
-        - 'mysql-connector-python' Python package. To get this, type the following command into the terminal: 'pip install mysql-connector-python'. (If 'pip' does not work then use pip3). I used pip3 for this command. 
+Before installing the script, make sure you have the followinng:
+ - Python 3 installed on your machine 
+ - MySQL server installed and running 
+ - Spotify API credentials (client ID and client secret). This can be obtained by creatinng a spotify Developer account and creating a application. 
+ - 'mysql-connector-python' Python package. To get this, type the following command into the terminal: 'pip install mysql-connector-python'. (If 'pip' does not work then use pip3). I used pip3 for this command. 
     
 ## Setup
     1. Create a '.env' file in your project directory and add your Spotify API credentials gennerated from you spotify for developers app. 
