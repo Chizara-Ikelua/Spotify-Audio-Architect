@@ -135,6 +135,7 @@ Before installing the script, make sure you have the followinng:
             except mysql.connector.Error as error:
                 print("Failed to connect to MySQL database:", error)
             return None
+![image](https://github.com/Chizara-Ikelua/Spotify-Audio-Architect/assets/136619792/a191ffae-9de1-4e02-910d-65a7a6fe3b2b)
 
 ### Limitations and Future Enhancements
   This code currently inserts our data in the MySQL database but it can also be modified to work with other databases by changing the connection and insertion mode. 
